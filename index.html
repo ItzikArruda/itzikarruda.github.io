@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=></canvas>
+      <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/v1-5.loader.js";
       var config = {
-        dataUrl: buildUrl + "/v1-5.data.br",
-        frameworkUrl: buildUrl + "/v1-5.framework.js.br",
-        codeUrl: buildUrl + "/v1-5.wasm.br",
+        dataUrl: buildUrl + "/v1-5.data.gz",
+        frameworkUrl: buildUrl + "/v1-5.framework.js.gz",
+        codeUrl: buildUrl + "/v1-5.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "GuyMakesStuff",
         productName: "Money Boat",
