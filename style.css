@@ -1,33 +1,35 @@
 body
 {
     text-align: center;
-    font-family: cursive;
+    align-content: center;
+    justify-content: center;
+    font-family: cursive, 'Comic Sans MS';
     background-color: rgba(0, 0, 0, 0.85);
     color: white;
     background-image: url("Pics/BG.jpg");
     background-blend-mode: darken;
     background-position: 50%;
-    background-size: 10%;
+    background-size: 200px;
 }
 div
 {
-    display: inline-block;
-    border-radius: 10px;
+    display: inline-flex;
     text-align: left;
 }
 li
 {
     list-style-position: inside;
 }
-ul
-{
-    max-width: 350px;
-}
 div .gallery
 {
-    display: inline-flex;
     list-style: none;
-    max-width: 100%;
+    text-align: center;
+}
+div .gallery li
+{
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
 }
 div .gallery img
 {
